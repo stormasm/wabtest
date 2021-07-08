@@ -6,3 +6,5 @@ To run this out of the box run this command...
 ```
 ./test/run-tests.py
 ```
+
+[For more details](./doc/)
