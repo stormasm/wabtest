@@ -52,6 +52,11 @@ And now all the tests should run out of the box with
 test/run_tests.py
 ```
 
+```
+alias rr='./test/run-tests.py'
+rr -p --no-roundtrip parse/basic.txt
+```
+
 #### Notes about other stuff besides building and running tests
 
 ```shell
