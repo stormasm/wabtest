@@ -53,8 +53,9 @@ test/run_tests.py
 ```
 
 ```
-alias rr='./test/run-tests.py'
-rr -p --no-roundtrip parse/basic.txt
+alias rr='./test/run-tests.py -p --no-roundtrip'
+rr test/parse/basic.txt
+rr test/parse/module/array.txt
 ```
 
 #### Notes about other stuff besides building and running tests
